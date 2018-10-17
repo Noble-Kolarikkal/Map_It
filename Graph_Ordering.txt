@@ -1,0 +1,30 @@
+Reception
+Elevator
+Toilet
+AHU
+Vitality
+ALPHA
+Electric Room
+Server Room
+Curie
+Daffodil
+Hibiscus
+Inter1
+Inter2
+Tulip
+Jakaranda
+Inter3
+Clover
+Mackenzie
+Huddle space
+Inter4
+Lotus
+Marigold
+Orchid
+Inter5
+Germanium
+Delta
+Emergency Exit
+Inter6
+Gladioli
+Library

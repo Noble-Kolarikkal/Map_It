@@ -1,0 +1,124 @@
+30 60
+Emergency_Exit Reception
+0 0 Reception
+0 0 Elevator
+0 0 Toilet
+0 0 AHU
+0 0 Vitality
+0 0 ALPHA
+0 0 Electric_Room
+0 0 Server_Room
+0 0 Curie
+0 0 Daffodil
+0 0 Hibiscus
+0 0 Inter1
+0 0 Inter2
+0 0 Tulip
+0 0 Jakaranda
+0 0 Inter3
+0 0 Clover
+0 0 Mackenzie
+0 0 Huddle_Space
+0 0 Inter4
+0 0 Lotus
+0 0 Marigold
+0 0 Orchid
+0 0 Inter5
+0 0 Germanium
+0 0 Delta
+0 0 Emergency Exit
+0 0 Inter6
+0 0 Gladioli
+0 0 Library
+Reception Electric_Room 1
+Reception Elevator 1
+Reception Daffodil 1
+Electric_Room Server_Room 1
+Electric_Room Reception 1
+Server_Room Curie 1
+Server_Room Electric_Room 1
+Curie ALPHA 1
+Curie Server_Room 1
+ALPHA Vitality 1
+ALPHA Curie 1
+Vitality AHU 1
+Vitality ALPHA 1
+AHU Toilet 1
+AHU Vitality 1
+Toilet Elevator 1
+Toilet AHU
+Elevator Reception 1
+Elevator Toilet 1
+Daffodil Hibiscus 1
+Daffodil Reception 1
+Hibiscus Inter1 1
+Hibiscus Daffodil 1
+Inter1 Inter2 1
+Inter1 Hibiscus 1
+Inter2 Tulip 1
+Inter2 Jakaranda 1
+Inter2 Inter1 1
+Jakaranda Inter3 1
+Jakaranda Inter2 1
+Inter3 Clover 1
+Inter3 Jakaranda 1
+Inter3 Inter6 1
+Clover Mackenzie 1
+Clover Inter3 1
+Mackenzie Clover 1
+Mackenzie Huddle_Space 1
+Huddle_Space Inter4 1
+Huddle_Space Mackenzie 1
+Inter4 Lotus 1
+Inter4 Huddle_Space 1
+Inter4 Orchid 1
+Lotus Marigold 1
+Lotus Inter4 1
+Marigold Lotus 1
+Orchid Inter5 1
+Orchid Inter4 1
+Inter5 Germanium 1
+Inter5 Orchid 1
+Inter5 Delta 1
+Inter5 Jakaranda 1
+Germanium Inter5 1
+Delta Emergency_Exit 1
+Delta Inter5 1
+Emergency_Exit Inter6 1
+Emergency_Exit Delta 1
+Inter6 Emergency_Exit 1
+Inter6 Gladioli 1
+Inter6 Inter5 1
+Gladioli Library 1
+Gladioli Inter6 1
+Library Gladioli 1
+Reception 0
+Elevator 0
+Toilet 0
+AHU 0
+Vitality 0
+ALPHA 0
+Electric_Room 0
+Server_Room 0
+Curie 0
+Daffodil 0
+Hibiscus 0
+Inter1 0
+Inter2 0
+Tulip 0
+Jakaranda 0
+Inter3 0
+Clover 0
+Mackenzie 0
+Huddle_Space 0
+Inter4 0
+Lotus 0
+Marigold 0
+Orchid 0
+Inter5 0
+Germanium 0
+Delta 0
+Emergency_Exit 0
+Inter6 0
+Gladioli 0
+Library 0
