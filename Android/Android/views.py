@@ -28,7 +28,7 @@ def profile_page(request):
     To=request.GET.get('to')
     print(From)
     print(To)
-    graph_info=open('C:\\Users\\nkolarikkal\\Documents\\Map It\\Map.txt','r')
+    graph_info=open('C:\\Users\\pjain2\\Documents\\Map_It\\Map.txt','r')
     MapIt=graph_info.read()
     MapIt=re.sub(r"[\n\t\s]*", "", MapIt)
     Yodlee=ast.literal_eval(MapIt)
@@ -84,16 +84,16 @@ def profile_page(request):
 
                 
     print(path)
-    pixel_info=open('C:\\Users\\nkolarikkal\\Documents\\Map It\\Jpixels.txt','r')
+    pixel_info=open('C:\\Users\\pjain2\\Documents\\Map_It\\Jpixels.txt','r')
     pixels=pixel_info.read()
     pixels=re.sub(r"[\n\t\s]*", "", pixels)
     pixels=ast.literal_eval(pixels)
-    im=Image.open('C:\\Users\\nkolarikkal\\Documents\\Map It\\Jupiter.png')
+    im=Image.open('C:\\Users\\pjain2\\Documents\\Map_It\\Jupiter.png')
     draw = ImageDraw.Draw(im)
     for i in range(len(path)-1):
         draw.line([pixels[path[i]], pixels[path[i+1]]], fill=128, width=5)
     #im.show()
-    im.save('C:\\Users\\nkolarikkal\\Documents\\Map It\\Jupiter2.png')
-    with open("C:\\Users\\nkolarikkal\\Documents\\Map It\\Jupiter2.png", "rb") as f:
+    im.save('C:\\Users\\pjain2\\Documents\\Map_It\\Jupiter2.png')
+    with open("C:\\Users\\pjain2\\Documents\\Map_It\\Jupiter2.png", "rb") as f:
         return HttpResponse(f.read(), content_type="image/png")
       
